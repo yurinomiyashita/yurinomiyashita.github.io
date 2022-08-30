@@ -9,6 +9,4 @@ labels:
   - Learning
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
-
 When I started my college career, I had no idea what I wanted to study in the university. Through out my freshman year, I took multiple introductory classes on several different subjects anincluding ICS 101, which took me into basic understanding of computers, and since than I’m interested in Information Technology. That’s why I decided to major in MIS. 
