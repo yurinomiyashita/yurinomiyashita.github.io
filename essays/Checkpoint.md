@@ -1,18 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "E3: Preparing for WODs Essay"
-date: 2022-11-16
+title: "Assignment 3 Checkpoint"
+date: 2022-11-29
 published: true
 labels:
   - Software Engineering
   - Learning
+  - Assignment3
 ---
-**Summary**
-In this essay, I’m going to talk about 5 WOD activities that I’ve done throughout this semester, Browser History6, Smart Phone Product1, Invoice1, Invoice2, and Smart Phone Products 2. WODs stands for work out of the day and it’s for us to practice coding within the set time period. The time period varies depending on the difficulty of WODs. I attached the link for each WOD exercise and instructions. I've attached links for each WOD instructions
-
--[**BroweserHistory6**](https://dport96.github.io/ITM352/morea/040.dynamic-web-pages/experience-browserhistory6.html)
-
 
 **Show what each page will look like. The pages do not have to be “functional” but the design should clear.**
 click [here](https://youtu.be/YmE0wsb0mjo)to short screencast of Assignment 3 design
