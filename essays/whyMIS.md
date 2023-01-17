@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "Why I decided to major in MIS"
-date: 2022-08-29
+date: 2023-1-17
 published: true
 labels:
   - Software Engineering
