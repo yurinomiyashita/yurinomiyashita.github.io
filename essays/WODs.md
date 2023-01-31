@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "My Experience with the WODs"
 date: 2022-08-29
-published: false
+published: true
 labels:
   - Software Engineering
   - Learning
