@@ -2,8 +2,8 @@
 layout: essay
 type: essay
 title: "Assignment 3 Checkpoint"
-date: 2022-11-29
-published: false
+date: 2023-4-27
+published: true
 labels:
   - Software Engineering
   - Learning
