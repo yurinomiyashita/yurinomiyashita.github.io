@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Assignment 3 Checkpoint | Yurino Miyashita | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/yurinomiyashita.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yurino Miyashita | Professional Portfolio">
+    <meta property="og:url" content="https://yurinomiyashita.github.io/essays/Checkpoint.html">
+    <meta property="og:title" content="Assignment 3 Checkpoint | Yurino Miyashita | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/yurinomiyashita.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Assignment 3 Checkpoint | Yurino Miyashita | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Yurino Miyashita</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Assignment 3 Checkpoint</h1>
+  <span class="date">27 Apr 2023</span>
+  <hr>
+  <p><strong>Show what each page will look like. The pages do not have to be “functional” but the design should clear.</strong>
+click <a href="https://youtu.be/0_2joXntXTA">here</a>to short screencast of Assignment 3 design</p>
+
+<p><strong>Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart.</strong></p>
+
+<p>On the top of every pages, I created navbar that allows users to click shopping cart icon. By clicking the icon, it will redirect to the separate shopping cart page to view what’s in the shopping cart and estimated total price. My plan is to add features to edit or/and delete items that the user selected.</p>
+
+<p><strong>Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their objects) you will use to manage the shopping cart data and how they will be used in a session.</strong></p>
+
+<p>Sessions will be utilized to manage my shopping cart. I will use it as the method to store quantity data so that users can view item in their cart when they returns. I will user arrays in JSON to store within sessions. Format that I will be using for sessions will look like this: {  “Harry Potter” : [0 , 0 ,1],  “Crazy Rich Asian”:[0 ,1, 0] }</p>
+
+<p><strong>How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address?</strong></p>
+
+<p>I will avoid access to my application when the user has not logged in or registered by utilizing session ID cookies to store that a user is logged in and to maintain product data. If the user doesn’t have cookies without logging in, the user will still have access to shopping cart but before redirecting to invoice, the user will be asked to log in or register before accessing to invoice. A security concern with this is that everytime I make changes to server, it will lose stored sessions information.</p>
+
+<p><strong>Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary)</strong></p>
+
+<p>Upon a successful login, the user’s name will be displayed on the header of pages. I will implement show message such as “(username) logged in” or I will insert new user icons as they successfully logged in. On the complete page, I will display user name and email address to show confirmation, “Thank you (username) for the ordering! Confirmation will be sent to (email address)”</p>
+
+<p><strong>If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when?</strong></p>
+
+<p>No, I am not working with a partner.</p>
+
+<p><strong>How are you approaching Assignment 3 differently than Assignment 2?</strong>
+Compared to Assignment 2, I am taking more time to build design and system. From the instructions, it can tall that there are several ways to build what the assignment is asking for. I’m looking for the ways that I can create in the most efficient and simple way as possible.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
